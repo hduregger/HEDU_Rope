@@ -1,0 +1,150 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"cacharacters2",
+		"CAAir",
+		"utes",
+		"hedu_rope"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"CAAir",
+		"utes"
+	};
+	randomSeed=5661511;
+	class Intel
+	{
+		startWeather=0;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+	class Groups
+	{
+		items=2;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3392.9456,19,3609.9634};
+					id=0;
+					side="WEST";
+					vehicle="USMC_LHD_Crew_Red";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					init="null = this execVM ""example.sqf"";";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3348.1458,19,3600.6543};
+					id=2;
+					side="WEST";
+					vehicle="USMC_LHD_Crew_Red";
+					leader=1;
+					skill=0.60000002;
+					text="ropeman";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=1;
+		class Item0
+		{
+			position[]={3368.5093,19,3609.3818};
+			azimut=170;
+			special="FLY";
+			id=1;
+			side="EMPTY";
+			vehicle="MH60S";
+			skill=0.60000002;
+			text="chopper";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=2728494;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=6629043;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=8329683;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
